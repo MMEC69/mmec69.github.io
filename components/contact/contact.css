@@ -1,0 +1,35 @@
+/* Global styles for all pages */
+
+/* Prevent body content from hiding behind the fixed navbar */
+body {
+    padding-top: 70px;
+  }
+  
+  /* Navbar logo styling */
+  .navbar-brand img {
+    height: 40px;
+    width: auto;
+  }
+  
+  /* Navbar transition effects for smooth scroll behavior */
+  .navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Navbar style when scrolled */
+  .navbar-scrolled {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer link hover effects */
+  footer a {
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #ddd;
+  }
+  
+  /* Additional Contact Page specific styles can be added here */
+  

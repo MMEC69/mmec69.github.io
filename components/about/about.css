@@ -1,0 +1,35 @@
+/* Global styles for all pages */
+
+/* Ensure body content doesn't hide behind the fixed navbar */
+body {
+    padding-top: 70px;
+  }
+  
+  /* Logo styling */
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+  
+  /* Navbar transition effect for scroll */
+  .navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Navbar styling when scrolled */
+  .navbar-scrolled {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer link hover effect */
+  footer a {
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #ddd;
+  }
+  
+  /* Additional About page specific styles can be added here */
+  
